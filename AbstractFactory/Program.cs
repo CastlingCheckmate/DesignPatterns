@@ -1,15 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AbstractFactoryPattern.Implementation;
+using AbstractFactoryPattern.Interfaces;
 
-namespace AbstractFactory
+namespace AbstractFactoryPattern
 {
-    class Program
+
+    internal sealed class Program
     {
+
         static void Main(string[] args)
         {
+            IAbstractFactory someStyleFactory = new SomeStyleProductFactory();
+            var someStyleProductA = someStyleFactory.CreateProductA("123");
+            var someStyleProductB = someStyleFactory.CreateProductB(123);
+            IAbstractFactory someOtherStyleFactory = new SomeOtherStyleProductFactory();
+            var someOtherStyleProductA = someOtherStyleFactory.CreateProductA("123");
+            var someOtherStyleProductB = someStyleFactory.CreateProductB(123);
+
         }
+
     }
+
 }
