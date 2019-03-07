@@ -9,9 +9,9 @@ namespace BuilderPattern.Implementation
 
         private House _constructed;
 
-        public WoodHouseBuilder()
+        public WoodHouseBuilder(House house = null)
         {
-            _constructed = new House();
+            _constructed = house ?? new House();
         }
 
         public IHouseBuilder BuildFoundation()

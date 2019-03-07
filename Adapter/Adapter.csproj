@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>net461</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject />
+    <RootNamespace>AdapterPattern</RootNamespace>
   </PropertyGroup>
 
 </Project>

@@ -10,13 +10,7 @@ namespace BuilderPattern.Implementation
 
         static void Main(string[] args)
         {
-            var steelBuilder = new WoodHouseBuilder();
-            steelBuilder.BuildFoundation();
-            steelBuilder.BuildRoof();
-            steelBuilder.BuildWalls();
-            var house = steelBuilder.GetResult();
-            #region !
-            house = ((SteelHouseBuilder)new SteelHouseBuilder()
+            var house = ((SteelHouseBuilder)new SteelHouseBuilder()
                 .BuildFoundation())
                 .GetResult();
             house = ((BrickHouseBuilder)new BrickHouseBuilder(house)
@@ -25,7 +19,6 @@ namespace BuilderPattern.Implementation
             house = ((WoodHouseBuilder)new WoodHouseBuilder(house)
                 .BuildRoof())
                 .GetResult();
-            #endregion
         }
 
     }

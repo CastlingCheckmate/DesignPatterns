@@ -1,15 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DecoratorPattern.Implementation;
 
-namespace Decorator
+namespace DecoratorPattern
 {
-    class Program
+
+    internal sealed class Program
     {
+
         static void Main(string[] args)
         {
+            var calculator = new Calculator();
+            var engineeringCalculator = new EngineeringCalculatorDecorator(calculator);
+            var programmaticalCalculatorDecorator = new ProgrammaticalCalculatorDecorator(engineeringCalculator);
         }
+
     }
+
 }

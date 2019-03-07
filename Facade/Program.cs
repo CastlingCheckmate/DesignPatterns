@@ -1,15 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Facade
+﻿namespace FacadePattern
 {
-    class Program
+
+    internal sealed class Program
     {
+
         static void Main(string[] args)
         {
+            //
+            // There is no implementation (=
+            //
         }
+
     }
+
 }
