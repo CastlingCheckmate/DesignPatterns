@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net461</TargetFramework>
+    <RootNamespace>MementoPattern</RootNamespace>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
 
 </Project>

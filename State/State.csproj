@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net461</TargetFramework>
+    <RootNamespace>StatePattern</RootNamespace>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
 
 </Project>

@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net461</TargetFramework>
-    <OutputType>Exe</OutputType>
     <RootNamespace>SingletonPattern</RootNamespace>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
 
 </Project>

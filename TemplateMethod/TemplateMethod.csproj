@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net461</TargetFramework>
+    <RootNamespace>TemplateMethodPattern</RootNamespace>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
 
 </Project>

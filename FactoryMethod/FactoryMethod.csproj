@@ -2,12 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net461</TargetFramework>
-    <OutputType>Exe</OutputType>
     <RootNamespace>FactoryMethodPattern</RootNamespace>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="NewFolder\" />
-  </ItemGroup>
 
 </Project>

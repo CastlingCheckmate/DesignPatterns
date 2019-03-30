@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net461</TargetFramework>
-    <OutputType>Exe</OutputType>
     <RootNamespace>AbstractFactoryPattern</RootNamespace>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
 
 </Project>
